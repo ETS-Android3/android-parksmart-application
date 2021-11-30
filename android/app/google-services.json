@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760098103147",
+    "project_id": "ny-park-smart",
+    "storage_bucket": "ny-park-smart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760098103147:android:94293a13c3480d9c46f62e",
+        "android_client_info": {
+          "package_name": "com.example.speechrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760098103147-tbgs8uo7uj47uk82r52k070grulr4mqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwSo-H4ssOV4-Ftk06upCdJdxeJmGzhhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760098103147-tbgs8uo7uj47uk82r52k070grulr4mqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

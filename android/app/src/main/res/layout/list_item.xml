@@ -1,0 +1,72 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/label"-->
+<!--    android:layout_width="fill_parent"-->
+<!--    android:layout_height="fill_parent"-->
+<!--    android:padding="10dp"-->
+<!--    android:textSize="16dp"-->
+<!--    android:textStyle="bold"-->
+<!--    android:textColor="@color/black"/>-->
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--Creating a TextView-->
+    <TextView
+        android:id="@+id/spot_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Text View"
+        android:textColor="#0F0F0F"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/availability_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spot_textView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Text View"
+        android:textColor="#121111"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spot_textView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="Text View"
+        android:textColor="#0F0F0F"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/availability_textView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="Text View"
+        android:textColor="#0F0F0F"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
