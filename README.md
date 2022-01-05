@@ -16,4 +16,9 @@ Ever driven to your favorite brunch spot on a Sunday morning, only to find out t
 - **List View**: Of available/unavailable parking spots around NY City. 
 - **Maps view**: App interfaces with Google Maps. Click on parking spot re-directs you to Google Maps, that can be used to navigate from current location to parking spot.
 
+## Usage ##   
+
+Use [Android Studio](https://developer.android.com/studio) to build the application, and either use Android Studio to push the application onto your Android phone using USB, or download the APK and install on your phone. Ensure developer mode is turned on, on your phone  
+
+
 
