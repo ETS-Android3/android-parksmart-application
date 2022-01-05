@@ -1,4 +1,5 @@
-# NY PARKSMART # 
+# NY PARKSMART #   
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
 
 NY Parksmart is an Android application built as part of my IOT lab project at Columbia University. The App is the front end of the project, which interfaces with a :fire: [Firebase](https://firebase.google.com/) :fire: database, which holds a record of all available ad-hoc on-road parking spots in the city (please note, this a prototype, but can be scaled to a real world app). A back-end sensing system using a Raspberry Pi interfaced with a Pi-Cam, captures images of parking spots in real time, and a ML model using TF-LITE, detects the presence or absence of a car in the spot, updating the firebase database in real time. The updates are captured by the application, and fed to the user.
 
@@ -32,7 +33,7 @@ The app consists of multiple activities as follows:
 
 ## Usage ##   
 
-Use [Android Studio](https://developer.android.com/studio) to build the application, and either use Android Studio to push the application onto your Android phone :iphone: using USB, or download the APK and install on your phone. Ensure developer mode is turned on, on your phone  
+Use [Android Studio](https://developer.android.com/studio) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) to build the application, and either use Android Studio to push the application onto your Android phone :iphone: using USB, or download the APK and install on your phone. Ensure developer mode is turned on, on your phone  
 
 
 
