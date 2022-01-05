@@ -16,6 +16,19 @@ Ever driven :taxi: to your favorite brunch spot on a Sunday morning, only to fin
 - **List View**: Of available/unavailable parking spots around NY City. 
 - **Maps view**: App interfaces with Google Maps. Click on parking spot re-directs you to Google Maps, that can be used to navigate from current location to parking spot.
 
+
+## Code ##
+
+The app consists of multiple activities as follows:  
+
+- [MainActivity.java](https://github.com/Souryadeep/parksmartapp/blob/master/android/app/src/main/java/com/example/speechrecognition/MainActivity.java): App home page  
+- [LoginActivity.java](https://github.com/Souryadeep/parksmartapp/blob/master/android/app/src/main/java/com/example/speechrecognition/LoginActivity.java): Login page  
+- [RegisterActivity.java](https://github.com/Souryadeep/parksmartapp/blob/master/android/app/src/main/java/com/example/speechrecognition/RegisterActivity.java): User registration page    
+- [CoreActivity.java](https://github.com/Souryadeep/parksmartapp/blob/master/android/app/src/main/java/com/example/speechrecognition/CoreActivity.java): Parking listview page. Takes you to Google Map view based on parking spot selected, or back to home page.  
+- [GMapsActivity.java](https://github.com/Souryadeep/parksmartapp/blob/master/android/app/src/main/java/com/example/speechrecognition/GMapsActivity.java): Opens Google Maps with parking spot marker  
+- [RecyclerView_Config.java](https://github.com/Souryadeep/parksmartapp/blob/master/android/app/src/main/java/com/example/speechrecognition/RecyclerView_Config.java): Recycler View is used for the list of parking spots  
+
+
 ## Usage ##   
 
 Use [Android Studio](https://developer.android.com/studio) to build the application, and either use Android Studio to push the application onto your Android phone :iphone: using USB, or download the APK and install on your phone. Ensure developer mode is turned on, on your phone  
