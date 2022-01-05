@@ -17,7 +17,7 @@
 
         <meta-data
             android:name="com.google.android.feo.API_KEY"
-            android:value="AIzaSyA3JyEZABdfThPZndxVJb0BkTJhyk73F8Q"/>
+            android:value="<fill yours>"/>
         <activity
             android:name=".MapActivity"
             android:exported="false" />
