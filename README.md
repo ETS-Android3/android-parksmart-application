@@ -17,7 +17,7 @@ Ever driven :taxi: to your favorite brunch spot on a Sunday morning, only to fin
 - **Maps view**: App interfaces with Google Maps. Click on parking spot re-directs you to Google Maps, that can be used to navigate from current location to parking spot.
 
 
-## Code ##
+## Code ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ##
 
 The app consists of multiple activities as follows:  
 
